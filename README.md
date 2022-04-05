@@ -10,6 +10,6 @@ This is how this app looks :
 
 <br />
 
-<img src="https://raw.githubusercontent.com/kevinadhiguna/countdown/master/demo/1.png" width="90%"></img>
+<img src="https://raw.githubusercontent.com/kevinadhiguna/countdown/master/demo/countdown.png" width="90%"></img>
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/countdown)](https://github.com/kevinadhiguna)
