@@ -1,8 +1,6 @@
 # Countdown
 
-Countdown is a website that shows days, hours, minutes, and seconds remaining until the end of 2022.
-
-To-do: make it until the end of 2023
+Countdown is a website that shows days, hours, minutes, and seconds remaining until the end of 2023.
 
 <br />
 
@@ -11,6 +9,12 @@ To-do: make it until the end of 2023
 This is how this app looks :
 
 <img src="https://raw.githubusercontent.com/kevinadhiguna/countdown/master/demo/countdown.png" width="90%"></img>
+
+<br />
+
+## To-do
+
+- Display current year dinamically without having to change it every year
 
 <br />
 
