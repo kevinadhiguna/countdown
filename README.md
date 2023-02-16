@@ -14,4 +14,10 @@ This is how this app looks :
 
 <br />
 
+## Reference
+
+- [Countdown to New Year 2020 | Coming Soon Page Using Html CSS & Javascript by Online Tutorials](https://youtu.be/AbmVRYZ_AwE)
+
+<br />
+
 ![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=countdown&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
