@@ -1,4 +1,7 @@
-const countDate = new Date('Dec 31, 2023 23:59:59').getTime();
+const currentYear = new Date().getFullYear();
+
+// Current year gets updated dinamically without having to change it every year
+const countDate = new Date(`Dec 31, ${currentYear} 23:59:59`).getTime();
 
 function newYear() {
   const now = new Date().getTime();
