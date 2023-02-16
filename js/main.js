@@ -1,18 +1,18 @@
-var countDate = new Date('Dec 31, 2023 23:59:59').getTime();
+const countDate = new Date('Dec 31, 2023 23:59:59').getTime();
 
 function newYear() {
-    var now = new Date().getTime();
+    const now = new Date().getTime();
         gap = countDate - now;
 
-    var second = 1000;
-    var minute = second * 60;
-    var hour = minute * 60;
-    var day = hour * 24;
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
 
-    var d = Math.floor(gap / (day));
-    var h = Math.floor((gap % (day)) / (hour));
-    var m = Math.floor((gap % (hour)) / (minute));
-    var s = Math.floor((gap % (minute)) / second);
+    const d = Math.floor(gap / (day));
+    const h = Math.floor((gap % (day)) / (hour));
+    const m = Math.floor((gap % (hour)) / (minute));
+    const s = Math.floor((gap % (minute)) / second);
 
     document.getElementById('day').innerText = d;
     document.getElementById('hour').innerText = h;
