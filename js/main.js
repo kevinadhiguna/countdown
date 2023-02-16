@@ -2,7 +2,7 @@ const countDate = new Date('Dec 31, 2023 23:59:59').getTime();
 
 function newYear() {
     const now = new Date().getTime();
-        gap = countDate - now;
+    const gap = countDate - now;
 
     const second = 1000;
     const minute = second * 60;
