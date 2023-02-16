@@ -1,5 +1,9 @@
 const currentYear = new Date().getFullYear();
 
+// To-do: Access and manipulate 'currentYearElement' instead of hardcoding it
+// const currentYearElement = document.getElementById('currentYearElement');
+// currentYearElement.innerText = currentYear;
+
 // Current year gets updated dinamically without having to change it every year
 const countDate = new Date(`Dec 31, ${currentYear} 23:59:59`).getTime();
 
