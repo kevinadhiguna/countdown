@@ -1,6 +1,6 @@
 # Countdown
 
-Countdown is a website that shows days, hours, minutes, and seconds remaining until the end of 2023.
+Countdown is a website that shows days, hours, minutes, and seconds remaining until the end of this year.
 
 <br />
 
