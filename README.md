@@ -15,6 +15,7 @@ This is how this app looks :
 ## To-do
 
 - Display current year dinamically without having to change it every year
+- Adapt mobile-friendly user interface
 
 <br />
 
