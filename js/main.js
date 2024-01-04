@@ -1,8 +1,8 @@
 const currentYear = new Date().getFullYear();
 
-// To-do: Access and manipulate 'currentYearElement' instead of hardcoding it
-// const currentYearElement = document.getElementById('currentYearElement');
-// currentYearElement.innerText = currentYear;
+// Access and manipulate 'currentYearElement' instead of hardcoding it
+const currentYearElement = document.getElementById('currentYearElement');
+currentYearElement.innerText = currentYear;
 
 // Current year gets updated dinamically without having to change it every year
 const countDate = new Date(`Dec 31, ${currentYear} 23:59:59`).getTime();
@@ -16,10 +16,10 @@ function newYear() {
   const hour = minute * 60;
   const day = hour * 24;
 
-  const d = Math.floor(gap / (day));
-  const h = Math.floor((gap % (day)) / (hour));
-  const m = Math.floor((gap % (hour)) / (minute));
-  const s = Math.floor((gap % (minute)) / second);
+  const d = Math.floor(gap / day);
+  const h = Math.floor((gap % day) / hour);
+  const m = Math.floor((gap % hour) / minute);
+  const s = Math.floor((gap % minute) / second);
 
   document.getElementById('day').innerText = d;
   document.getElementById('hour').innerText = h;
