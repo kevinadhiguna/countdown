@@ -14,7 +14,7 @@ This is how this app looks :
 
 ## To-do
 
-- Adapt mobile-friendly user interface
+- Adapt mobile-friendly user interface ('Days' and 'Hours' texts are hidden in such layout)
 - Optimize code
 - Display current year dinamically without having to change it every year ✅
 
