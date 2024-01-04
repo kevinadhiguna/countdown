@@ -14,10 +14,9 @@ This is how this app looks :
 
 ## To-do
 
-- Display current year dinamically without having to change it every year (next: 2024)
 - Adapt mobile-friendly user interface
-- Update the demo picture to countdown towards 2024
 - Optimize code
+- Display current year dinamically without having to change it every year ✅
 
 <br />
 
