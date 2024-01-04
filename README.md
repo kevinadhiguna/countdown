@@ -8,7 +8,7 @@ Countdown is a website that shows days, hours, minutes, and seconds remaining un
 
 This is how this app looks :
 
-<img src="https://raw.githubusercontent.com/kevinadhiguna/countdown/master/demo/2023.png" width="90%"></img>
+<img src="https://raw.githubusercontent.com/kevinadhiguna/countdown/master/demo/2024.png" width="90%"></img>
 
 <br />
 
