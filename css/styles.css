@@ -2,7 +2,6 @@
 1. Set styling based on classes instead of elements 
 2. Fix Google Fonts not loading
 */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100,200,300,400,500,600,700,800,900&display=swap');
 
 * {
@@ -19,10 +18,10 @@ body {
 
 .container {
   position: absolute;
-  top: 80px;
-  left: 100px;
-  right: 100px;
-  bottom: 80px;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 10%;
   background: url(../img/background.jpg);
   background-attachment: fixed;
   display: flex;
@@ -35,7 +34,7 @@ body {
 
 .container h2 {
   text-align: center;
-  font-size: 10em;
+  font-size: 6em;
   line-height: 0.7em;
   color: #333;
   margin-top: -80px;
@@ -50,6 +49,8 @@ body {
 
 .countdown {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 50px;
 }
 
